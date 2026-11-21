@@ -80,3 +80,4 @@ jobs:
           name: k6-summary
           path: summary.json
           if-no-files-found: warn
+          retention-days: 3

@@ -86,5 +86,5 @@ jobs:
         with:
           name: word-addin-playwright-results
           path: word-addin/test-results/
-          retention-days: 14
+          retention-days: 3
           if-no-files-found: ignore

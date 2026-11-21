@@ -54,3 +54,4 @@ jobs:
           name: mutation-report
           path: backend/reports/mutation/
           if-no-files-found: warn
+          retention-days: 3
